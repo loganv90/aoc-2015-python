@@ -46,7 +46,7 @@ def part2(filename: str) -> None:
         smallest = min(lw, wh, hl)
         total += length * width * height + smallest
 
-    print("Solution Part 1: ", total)
+    print("Solution Part 2: ", total)
 
 if __name__ == "__main__":
     part1("test1")
